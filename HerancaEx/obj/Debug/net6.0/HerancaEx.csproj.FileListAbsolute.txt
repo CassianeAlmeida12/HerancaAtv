@@ -1,0 +1,15 @@
+C:\Users\cassi\source\repos\HerancaEx\HerancaEx\bin\Debug\net6.0\HerancaEx.exe
+C:\Users\cassi\source\repos\HerancaEx\HerancaEx\bin\Debug\net6.0\HerancaEx.deps.json
+C:\Users\cassi\source\repos\HerancaEx\HerancaEx\bin\Debug\net6.0\HerancaEx.runtimeconfig.json
+C:\Users\cassi\source\repos\HerancaEx\HerancaEx\bin\Debug\net6.0\HerancaEx.dll
+C:\Users\cassi\source\repos\HerancaEx\HerancaEx\bin\Debug\net6.0\HerancaEx.pdb
+C:\Users\cassi\source\repos\HerancaEx\HerancaEx\obj\Debug\net6.0\HerancaEx.csproj.AssemblyReference.cache
+C:\Users\cassi\source\repos\HerancaEx\HerancaEx\obj\Debug\net6.0\HerancaEx.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cassi\source\repos\HerancaEx\HerancaEx\obj\Debug\net6.0\HerancaEx.AssemblyInfoInputs.cache
+C:\Users\cassi\source\repos\HerancaEx\HerancaEx\obj\Debug\net6.0\HerancaEx.AssemblyInfo.cs
+C:\Users\cassi\source\repos\HerancaEx\HerancaEx\obj\Debug\net6.0\HerancaEx.csproj.CoreCompileInputs.cache
+C:\Users\cassi\source\repos\HerancaEx\HerancaEx\obj\Debug\net6.0\HerancaEx.dll
+C:\Users\cassi\source\repos\HerancaEx\HerancaEx\obj\Debug\net6.0\refint\HerancaEx.dll
+C:\Users\cassi\source\repos\HerancaEx\HerancaEx\obj\Debug\net6.0\HerancaEx.pdb
+C:\Users\cassi\source\repos\HerancaEx\HerancaEx\obj\Debug\net6.0\HerancaEx.genruntimeconfig.cache
+C:\Users\cassi\source\repos\HerancaEx\HerancaEx\obj\Debug\net6.0\ref\HerancaEx.dll
