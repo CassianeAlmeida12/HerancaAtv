@@ -26,7 +26,7 @@ namespace HerancaEx
             //receber um valor de empréstimo e verificar se o cliente possui limites para realizar tal empréstimo.
             if(valor <= LimiteEmprestimo)
             {
-                LimiteEmprestimo -= valor;
+                TotalEmprestimo = 
                 Console.WriteLine($"Emprestimo realizado com sucesso! \n Total do Limite Emprestimo: {LimiteEmprestimo} ");
             }
             else

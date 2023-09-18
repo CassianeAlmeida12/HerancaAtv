@@ -31,7 +31,7 @@ namespace HerancaEx
             }
             else
             {
-                Console.WriteLine($"Saque realizado com sucesso!");
+                Console.WriteLine($"Saque realizado com sucesso");
             }
         }
     }
