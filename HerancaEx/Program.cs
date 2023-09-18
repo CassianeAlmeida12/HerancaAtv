@@ -5,14 +5,30 @@ public class Programa
 {
     static void Main(string[] args)
     {
-        //Conta c = new Conta(01, "caixa", "cassiane", 2000);
-        //c.Sacar(100);
+        Conta c = new Conta();
 
-        //ContaEstudante c = new ContaEstudante(1000, "084.178.252-34", "ifro", 01, "caixa", "cassi", 1000);
-        //c.Sacar(1000);
+        while(true)
+        {
+            try
+            {
+                Console.WriteLine("1 - Conta");
+                Console.WriteLine("2 - Conta Estudante");
+                Console.WriteLine("3 - Conta Empresarial");
+                Console.WriteLine("4 - Sair do programa");
+                Console.Write("Escolha o tipo de conta bancária que você deseja criar: ");
+                int escolha = Convert.ToInt32(Console.ReadLine());
 
-        ContaEmprestimo c = new ContaEmprestimo(10, 2000, 10, 01, "caixa", "cassi", 6000);
-        c.FazerEmprestimo(3000);
+                if(escolha == 1)
+                {
+                    Console.Write("Digite o número da conta: ");
+                    c.NConta = Convert.ToInt32(Console.ReadLine());
+                }
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+        }
     }
 }
 

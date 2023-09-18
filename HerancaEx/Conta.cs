@@ -13,7 +13,10 @@ namespace HerancaEx
         public string Titular { get; set; }
         public double Saldo { get; set; }
 
+        public Conta()
+        {
 
+        }
         public Conta(int nConta, string agencia, string titular, double saldo)
         {
             NConta = nConta;
@@ -39,7 +42,7 @@ namespace HerancaEx
             }
         }
 
-        public virtual void Depositar(double valor)
+        public virtual void Depositar(double valor) 
         {
             Saldo += valor;
             Console.WriteLine($"Deposito realizado com sucesso! \n Total da conta: {Saldo}");
