@@ -12,7 +12,10 @@ namespace HerancaEx
         public string Cpf { get; set; }
         public string NomeInstituicao { get; set; }
 
+        public ContaEstudante()
+        {
 
+        }
         public ContaEstudante(double limiteChequeEspecial, string cpf, string nomeInstituicao, int nConta, string agencia, string titular, double saldo)
             : base(nConta, agencia, titular, saldo)
         {

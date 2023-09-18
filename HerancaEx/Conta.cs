@@ -44,8 +44,15 @@ namespace HerancaEx
 
         public virtual void Depositar(double valor) 
         {
-            Saldo += valor;
-            Console.WriteLine($"Deposito realizado com sucesso! \n Total da conta: {Saldo}");
+            if(valor > 0)
+            {
+                Saldo += valor;
+                Console.WriteLine($"Deposito realizado com sucesso! \n Total da conta: {Saldo}");
+            }
+            else
+            {
+                Console.WriteLine("erro");
+            }
         }
     }
 }
